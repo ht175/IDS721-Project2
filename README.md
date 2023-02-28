@@ -15,28 +15,33 @@ A. type: "/" that returns a message :
         <p>you can get high prices of stock you are interested in</p>
         <p>you can get low prices of stock you are interested in</p> 
         <p>you can get open prices of stock you are interested in</p>
+        
 ![image](https://user-images.githubusercontent.com/122952572/222003813-f91c751c-b8f0-4e7b-876a-6b2abcfd1763.png)
 
         
 
 B. type: "/openprice/{name}" that returns a open pirce for the stock you type
 `/openprice/TSLA`
+
 ![image](https://user-images.githubusercontent.com/122952572/222004340-99c775e1-8d0b-4c92-b790-5b5f4c4a8a30.png)
 
 
 
 C. type: "/lowprice/{name}" that returns a low pirce for the stock you type
 `/lowprice/TSLA`
+
 ![image](https://user-images.githubusercontent.com/122952572/221999515-f0d96233-6fa1-4ba8-895b-f8a67c89fb1d.png)
 
 
 D. type: "/highprice/{name}" that returns a high pirce for the stock you type
 `/highprice/TSLA`
+
 ![image](https://user-images.githubusercontent.com/122952572/222004463-60433b32-e3f0-4af4-9faf-278a11a9bf60.png)
 
 
 E. type: "/currprice/{name}" that returns a current pirce for the stock you type
 `/currprice/TSLA`
+
 ![image](https://user-images.githubusercontent.com/122952572/222004529-5c159f74-5455-46ed-922f-9d449d1405fd.png)
 
 ## Use Cloud based Container Registery (ECR) to deploy the project
@@ -47,8 +52,10 @@ E. type: "/currprice/{name}" that returns a current pirce for the stock you type
 `git clone https://github.com/ht175/IDS721-Project2.git`
 4. create a docker file
 `touch Dockerfile`
+
 ![image](https://user-images.githubusercontent.com/122952572/222005588-6a23728d-c0fd-4849-8f14-3a5621c014aa.png)
-5.Go to AWS Amazon Elastic Container Registry, create a private repository and click view push command
+
+5. Go to AWS Amazon Elastic Container Registry, create a private repository and click view push command
 follow the command
 when try to build docker, if it failed beacuase of no space left 
 run this command
